@@ -1,0 +1,109 @@
+$primary-color: #8A1538;
+$background-color: #fff;
+$text-color: #000;
+ body{
+    background-color: $background-color;
+    color: $text-color;
+
+ }
+input{
+    border: none;
+    border-bottom: 1px solid #A4AEB7;
+}
+hr{
+    border-bottom: 2px solid #A4AEB7;
+}
+button{
+    height: 48px;
+    background-color: $primary-color;
+    color: #fff;
+    border-radius: 8px;
+    border: none;
+    text-align: center;
+
+}
+.logo-container{
+    background-image: url('loginLogo.png');
+    position: absolute;
+    left: 90px;
+    top: 50px;
+    width: 100px;
+    height: 100px;
+}
+.eye-icon{
+    display: flex;
+    align-items: center;
+    position: absolute;
+    height: 100%;
+    top: 20px;
+    right: 0;
+    padding-right: 1px;
+}
+.pass-container{
+    position: relative;
+}
+form{
+    margin: auto;
+    width: 534px;
+    height: 600px;
+    box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+    display: flex;
+    flex-direction: column;
+    justify-items: center;
+    padding: 100px;
+ 
+
+ }
+ .higlighte{
+    color: $primary-color;
+ }
+.sd{
+    width: 320px;
+    height: auto;
+    display: flex;
+    flex-direction: column;
+    justify-items: center;
+    padding-left: 100px;
+ }
+ .login-info{
+     margin: auto;
+     align-content: center;
+}
+.sub-info{
+    font-size: 14px;
+}
+.user-type{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    
+}
+.user-type-text{
+    font-size: 16px;
+    font-weight: 500;  
+}
+.signin_label{
+font-size: 14px;
+line-height: 21px;
+ }
+ .button-box{
+    width: 320px;
+    height: 48px;
+    border: 1px solid $primary-color;
+    border-radius: 8px;
+    text-align: center;
+    padding: 10px 0;
+   
+ }
+ #passforget{
+    text-align: end;
+ }
+.register-redirect{
+    font-style: normal;
+    font-weight: 400;
+    font-size: 12px;
+    line-height: 14px;
+}
+.redirect-register{
+    color: $primary-color;
+}
